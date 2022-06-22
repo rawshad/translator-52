@@ -1,0 +1,34 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+/* Basic setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+/* navbar style */
+.navbar {
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 1);
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar .logo {
+    width: 300px;
+}
+.navbar .menu li {
+    display: inline-block;
+}
+.navbar .menu li a {
+    color: #fff;
+}
+
+
