@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Li Shamim Cholontika Old';
+    src: url('LiShamimCholontikaOld-Italic.eot');
+    src: url('LiShamimCholontikaOld-Italic.eot?#iefix') format('embedded-opentype'),
+        url('LiShamimCholontikaOld-Italic.woff2') format('woff2'),
+        url('LiShamimCholontikaOld-Italic.woff') format('woff'),
+        url('LiShamimCholontikaOld-Italic.ttf') format('truetype'),
+        url('LiShamimCholontikaOld-Italic.svg#LiShamimCholontikaOld-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Li Ihtisham Deshlipi Unicode';
+    src: url('LiIhtishamDeshlipiUnicode-Italic.eot');
+    src: url('LiIhtishamDeshlipiUnicode-Italic.eot?#iefix') format('embedded-opentype'),
+        url('LiIhtishamDeshlipiUnicode-Italic.woff2') format('woff2'),
+        url('LiIhtishamDeshlipiUnicode-Italic.woff') format('woff'),
+        url('LiIhtishamDeshlipiUnicode-Italic.ttf') format('truetype'),
+        url('LiIhtishamDeshlipiUnicode-Italic.svg#LiIhtishamDeshlipiUnicode-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Li Ihtisham Deshlipi Unicode';
+    src: url('LiIhtishamDeshlipiUnicode.eot');
+    src: url('LiIhtishamDeshlipiUnicode.eot?#iefix') format('embedded-opentype'),
+        url('LiIhtishamDeshlipiUnicode.woff2') format('woff2'),
+        url('LiIhtishamDeshlipiUnicode.woff') format('woff'),
+        url('LiIhtishamDeshlipiUnicode.ttf') format('truetype'),
+        url('LiIhtishamDeshlipiUnicode.svg#LiIhtishamDeshlipiUnicode') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Li Shamim Cholontika Old';
+    src: url('LiShamimCholontikaOld.eot');
+    src: url('LiShamimCholontikaOld.eot?#iefix') format('embedded-opentype'),
+        url('LiShamimCholontikaOld.woff2') format('woff2'),
+        url('LiShamimCholontikaOld.woff') format('woff'),
+        url('LiShamimCholontikaOld.ttf') format('truetype'),
+        url('LiShamimCholontikaOld.svg#LiShamimCholontikaOld') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Li Shamim Cholontika Unicode';
+    src: url('LiShamimCholontikaUnicode.eot');
+    src: url('LiShamimCholontikaUnicode.eot?#iefix') format('embedded-opentype'),
+        url('LiShamimCholontikaUnicode.woff2') format('woff2'),
+        url('LiShamimCholontikaUnicode.woff') format('woff'),
+        url('LiShamimCholontikaUnicode.ttf') format('truetype'),
+        url('LiShamimCholontikaUnicode.svg#LiShamimCholontikaUnicode') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Li Shamim Cholontika Unicode';
+    src: url('LiShamimCholontikaUnicode-Italic.eot');
+    src: url('LiShamimCholontikaUnicode-Italic.eot?#iefix') format('embedded-opentype'),
+        url('LiShamimCholontikaUnicode-Italic.woff2') format('woff2'),
+        url('LiShamimCholontikaUnicode-Italic.woff') format('woff'),
+        url('LiShamimCholontikaUnicode-Italic.ttf') format('truetype'),
+        url('LiShamimCholontikaUnicode-Italic.svg#LiShamimCholontikaUnicode-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Li Sirajee Sheikh Unicode';
+    src: url('LiSirajeeSheikhUnicode-Italic.eot');
+    src: url('LiSirajeeSheikhUnicode-Italic.eot?#iefix') format('embedded-opentype'),
+        url('LiSirajeeSheikhUnicode-Italic.woff2') format('woff2'),
+        url('LiSirajeeSheikhUnicode-Italic.woff') format('woff'),
+        url('LiSirajeeSheikhUnicode-Italic.ttf') format('truetype'),
+        url('LiSirajeeSheikhUnicode-Italic.svg#LiSirajeeSheikhUnicode-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Li Sirajee Sheikh Plain Unicode';
+    src: url('LiSirajeeSheikhPlainUnicode-Italic.eot');
+    src: url('LiSirajeeSheikhPlainUnicode-Italic.eot?#iefix') format('embedded-opentype'),
+        url('LiSirajeeSheikhPlainUnicode-Italic.woff2') format('woff2'),
+        url('LiSirajeeSheikhPlainUnicode-Italic.woff') format('woff'),
+        url('LiSirajeeSheikhPlainUnicode-Italic.ttf') format('truetype'),
+        url('LiSirajeeSheikhPlainUnicode-Italic.svg#LiSirajeeSheikhPlainUnicode-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Li Sirajee Sheikh Unicode';
+    src: url('LiSirajeeSheikhUnicode.eot');
+    src: url('LiSirajeeSheikhUnicode.eot?#iefix') format('embedded-opentype'),
+        url('LiSirajeeSheikhUnicode.woff2') format('woff2'),
+        url('LiSirajeeSheikhUnicode.woff') format('woff'),
+        url('LiSirajeeSheikhUnicode.ttf') format('truetype'),
+        url('LiSirajeeSheikhUnicode.svg#LiSirajeeSheikhUnicode') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Li Sirajee Sheikh Plain Unicode';
+    src: url('LiSirajeeSheikhPlainUnicode.eot');
+    src: url('LiSirajeeSheikhPlainUnicode.eot?#iefix') format('embedded-opentype'),
+        url('LiSirajeeSheikhPlainUnicode.woff2') format('woff2'),
+        url('LiSirajeeSheikhPlainUnicode.woff') format('woff'),
+        url('LiSirajeeSheikhPlainUnicode.ttf') format('truetype'),
+        url('LiSirajeeSheikhPlainUnicode.svg#LiSirajeeSheikhPlainUnicode') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

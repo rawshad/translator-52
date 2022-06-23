@@ -22,7 +22,6 @@ img {
 }
 .max-width {
     max-width: 130rem;
-    /* padding: 80px; */
     padding: 0 8rem;
     margin: auto;
 }
@@ -31,7 +30,7 @@ img {
     position: fixed;
     width: 100%;
     padding: 5px;
-    background: rgba(0, 0, 0, 1);
+    background-color: rgba(22, 31, 109, 0.5);
     font-family: 'Ubuntu', sans-serif;
 }
 .navbar .max-width {
@@ -49,12 +48,12 @@ img {
     font-size: 1.8rem;
     font-weight: 500;
     margin-left: 2.5rem;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 /* home section */
 .home {
     display: flex;
-    background: url(img/bg-1.jpg);
+    background-color: #00ABE1;
     background-repeat: no-repeat;
     background-size: 50% 93%;
     background-position: bottom right;
@@ -65,22 +64,41 @@ img {
     font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width {
-    margin: auto 0 auto 40px;
+    /* margin: auto 0 auto 40px; */
+    width:100%;
+}
+.home .home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home .home-content .home-product {
+    width: 38.8rem;
+    height: 38.8rem;
+    border: 1rem solid black;
+    border-radius: 50%;
+}
+.home .home-content .home-product img {
+    border-radius: 50%;
 }
 .home .home-content .text-1 {
     font-size: 2.7rem;
 }
 .home .home-content .text-2 {
+    font-family: 'Li Sirajee Sheikh Unicode';
     font-size: 7.5rem;
     font-weight: 600;
     margin-left: -.3rem;
+}
+.home .home-content .text-2 > span {
+    color: rgb(204, 7, 7);
 }
 .home .home-content .text-3 {
     font-size: 4rem;
     margin: 5px 0;
 }
 .home .home-content .text-3 span {
-    color: red;
+    color: white;
     font-weight: 500;
 }
 .home .home-content .text-3 span .text-3-2 {
