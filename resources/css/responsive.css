@@ -16,7 +16,7 @@
         height: 100vh;
         top: 0;
         left: -100%;
-        background-color: #00ABE1;
+        background-color: rgba(22, 31, 109, 1);
         text-align: center;
         padding-top: 8rem;
         transition: all 0.3s ease;
@@ -32,33 +32,56 @@
         margin: 2rem 0;
         font-size: 2.5rem;
         font-weight: bolder;
-        color: rgba(22, 31, 109, 1);
+        color: rgb(204, 7, 7);
         text-transform: uppercase;
     }
     .navbar .menu li a:hover {
-        color: white;
+        color: rgb(255, 255, 255);
     }
     .navbar.sticky:hover .menu li a:hover {
         color: white;
     }
     
     /* home section */
-    .home .home-content .text-2 {
-        font-size: 5rem;
+    .home {
+        background-color: #00ABE1;
+        height: auto;
+        padding-top: 16%;
+        padding-bottom: 5%;
+    }
+    .home .home-content {
+        flex-direction: column;
+        
+    }
+    .home .home-content .home-text {
+        /* background-color: #fd59da; */
+        text-align: center;
+    }
+    .home .home-content .home-product {
+        text-align: center;
+    }
+    .home .home-content .home-product img {
+        /* width: 80%; */
     }
 }
-
+/* home section */
 @media only screen and (max-width: 768px) {
-    /* home section */
+    .home {
+        padding-top: 20%;
+    }
     .home .home-content .text-2 {
-        font-family: 'Li Sirajee Sheikh Unicode';
-        font-size: 3.5rem;
+        font-size: 6rem;
     }
 }
+/* home section */
 @media only screen and (max-width: 576px) {
-    /* home section */
+    .navbar .logo {
+        width: 150px;
+    }
+    .home {
+        padding-top: 22%;
+    }
     .home .home-content .text-2 {
-        font-family: 'Li Sirajee Sheikh Unicode';
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 }

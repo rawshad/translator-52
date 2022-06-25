@@ -73,16 +73,13 @@ img {
 }
 /* home section */
 .home {
-    display: flex;
     background-color: #00ABE1;
-    background-repeat: no-repeat;
-    background-size: 50% 93%;
-    background-position: bottom right;
-    background-attachment:fixed;
     height: 100vh;
     color: black;
     min-height: 50rem;
     font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
 }
 .home .max-width {
     /* margin: auto 0 auto 40px; */
@@ -92,12 +89,11 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10%;
 }
-.home .home-content .home-product {
-    width: 38.8rem;
-    height: 38.8rem;
-    /* border: 1rem solid black; */
-    border-radius: 50%;
+
+.home .home-content .home-text {
+    flex-basis: 50%;
 }
 .home .home-content .home-product img {
     border: 1rem solid black;
@@ -108,15 +104,16 @@ img {
 }
 .home .home-content .text-2 {
     font-family: 'Li Sirajee Sheikh Unicode';
-    font-size: 5rem;
+    font-size: 6.5rem;
     font-weight: 600;
-    margin-left: -.3rem;
+    /* margin-left: -.3rem; */
 }
 .home .home-content .text-2 > span {
     color: rgb(204, 7, 7);
 }
 .home .home-content .text-3 {
-    font-size: 4rem;
+    font-family: 'Li Ihtisham Deshlipi Unicode';
+    font-size: 3rem;
     margin: 5px 0;
 }
 .home .home-content .text-3 span {
