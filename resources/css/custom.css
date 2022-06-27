@@ -32,7 +32,7 @@ img {
     width: 100%;
     padding: 1rem 0;
     font-family: 'Ubuntu', sans-serif;
-    background: rgba(22, 31, 109, 0.5);
+    /* background: rgba(22, 31, 109, 0.5); */
     transition: all 0.3s ease;
 }
 .navbar.sticky {
@@ -55,11 +55,14 @@ img {
     font-size: 1.8rem;
     font-weight: 500;
     margin-left: 2.5rem;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     transition: color 0.3s ease;
 }
+.navbar.sticky .menu li a {
+    color: rgb(255, 255, 255);
+}
 .navbar .menu li a:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .navbar.sticky:hover .menu li a:hover {
     color: rgb(204, 7, 7);
@@ -99,9 +102,6 @@ img {
     border: 1rem solid black;
     border-radius: 50%;
 }
-.home .home-content .text-1 {
-    font-size: 2.7rem;
-}
 .home .home-content .text-2 {
     font-family: 'Li Sirajee Sheikh Unicode';
     font-size: 6.5rem;
@@ -117,7 +117,7 @@ img {
     margin: 5px 0;
 }
 .home .home-content .text-3 span {
-    color: white;
+    color: rgba(22, 31, 109, 1);
     font-weight: 500;
 }
 .home .home-content .text-3 span .text-3-2 {
