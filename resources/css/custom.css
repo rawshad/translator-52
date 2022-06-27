@@ -39,6 +39,7 @@ img {
     padding: 0.5rem 0;
     background: rgba(22, 31, 109, 1);
     transition: all 0.3s ease;
+    z-index: 999;
 }
 .navbar .max-width {
     display: flex;
