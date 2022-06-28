@@ -58,6 +58,7 @@ img {
     margin-left: 2.5rem;
     color: rgb(0, 0, 0);
     transition: color 0.3s ease;
+    text-transform: uppercase;
 }
 .navbar.sticky .menu li a {
     color: rgb(255, 255, 255);
@@ -124,6 +125,18 @@ img {
 .home .home-content .text-3 span .text-3-2 {
     color: #fff;
     font-weight: 500;
+}
+/* author section starts here */
+.author {
+    font-family: 'poppins', sans-serif;
+}
+.author.title {
+    font-family: 'Ubuntu', sans-serif;
+}
+.author .author-content .left img {
+    height: 40rem;
+    width: 40rem;
+    /* object-fit: contain; */
 }
 
 
