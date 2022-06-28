@@ -127,16 +127,67 @@ img {
     font-weight: 500;
 }
 /* author section starts here */
-.author {
-    font-family: 'poppins', sans-serif;
+section {
+    padding: 10rem 0;
 }
-.author.title {
+.author {
+    font-family: 'Poppins', sans-serif;
+}
+.author .title {
+    position: relative;
     font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 6rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+}
+.author .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 40rem;
+    height: .3rem;
+    background:rgb(0, 0, 0);
+    transform: translateX(-50%);
+}
+.author .title::after {
+    content: "Developer and CEO";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color:rgb(204, 7, 7);
+    padding: .5rem;
+    background:rgb(255, 255, 255);
+    transform: translateX(-50%);
+}
+.author .author-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.author .author-content .left {
+    width: 45%;
 }
 .author .author-content .left img {
     height: 40rem;
     width: 40rem;
-    /* object-fit: contain; */
+    border: .5rem solid rgb(0, 0, 0);
+    border-radius:.6rem;
+}
+.author .author-content .right {
+    width: 55%;
+}
+.author .author-content .right > p {
+    text-align: justify;
+    font-weight: 600;
+    line-height: 2;
+    transition: all .3s ease;
 }
 
 
