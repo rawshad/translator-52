@@ -3317,7 +3317,7 @@ img.u-pull-left {
     --easing       : cubic-bezier(0.28, 0.12, 0.22, 1);
     font-family    : 'Ubuntu', sans-serif;
     font-weight    : 700;
-    font-size      : 1.6rem;
+    font-size      : 1.5rem;
     text-transform : uppercase;
     letter-spacing : .4em;
     text-align     : center;
@@ -3380,10 +3380,11 @@ img.u-pull-left {
     justify-content: space-between;
     text-align: justify;
     gap: 2%;
-    padding-top: 2%;
+    padding-top: 15%;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.6rem;
+    font-size: 4rem;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .tab-content__item[data-tab-active] {
@@ -3453,6 +3454,7 @@ img.u-pull-left {
 
     .tab-nav {
         font-weight : 500;
+        margin: 0;
     }
 
     .tab-nav__list {

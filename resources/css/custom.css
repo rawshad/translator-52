@@ -132,6 +132,7 @@ section {
 }
 .author {
     font-family: 'Poppins', sans-serif;
+    background-color: #DFF6FF;
 }
 .author .title {
     position: relative;
@@ -162,7 +163,7 @@ section {
     text-transform: uppercase;
     color:rgb(204, 7, 7);
     padding: .5rem;
-    background:rgb(255, 255, 255);
+    background:#DFF6FF;
     transform: translateX(-50%);
 }
 .author .author-content {
