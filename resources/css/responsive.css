@@ -65,6 +65,10 @@
     font-size: 2rem;
     line-height: 2;
 }
+/* gallery section */
+.gallery .image {
+    width: calc(100% / 2);
+}
     
 }
 
@@ -147,5 +151,10 @@ section {
 .tab-content__item > h1 {
     font-size: 2rem;
     line-height: 2;
+}
+/* gallery section */
+.gallery .image {
+    padding: 4px;
+    width: 100%;
 }
 }

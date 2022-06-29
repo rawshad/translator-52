@@ -198,12 +198,6 @@
         });
     };
 
-
-   /* Alert Boxes
-    * ------------------------------------------------------ */
-   
-
-
    /* Smooth Scrolling
     * ------------------------------------------------------ */
     const ssMoveTo = function(){
@@ -256,7 +250,6 @@
         ssSwiper();
         ssMailChimpForm();
         sstabs();
-        ssAlertBoxes();
         ssMoveTo();
 
     })();

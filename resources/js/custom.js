@@ -18,4 +18,75 @@ $(document).ready(function(){
         backSpeed: 15,
         loop: true
     });
+    // gallery light-box script
+    // 1-select elements
+    const gallery = document.querySelectorAll(".image");
+    const previewBox = document.querySelector(".preview-box");
+    const previewImg = previewBox.querySelector("img");
+    const closeIcon = previewBox.querySelector(".icon");
+    const currentImg = previewBox.querySelector(".current-img");
+    const totalImg = previewBox.querySelector(".total-img");
+    const shadow = document.querySelector(".shadow");
+
+    window.onload = () => {// once window loaded
+        for (let i = 0; i < gallery.length; i++) {
+            totalImg.textContent = gallery.length;//passing gallery img length to totalImg
+            let newIndex = i;//passing i value to newIndex varriable
+            let clickImgIndex;
+            gallery[i].onclick = () => {
+                clickImgIndex = newIndex //passing clicked img index to clickImgIndex varriable
+                console.log(i);
+                function preview(){
+                    currentImg.textContent = newIndex + 1;//passing new index value to currentImg with addition of one
+                    let selectedImgUrl = gallery[newIndex].querySelector("img").src;//getting user activated image url
+                    previewImg.src = selectedImgUrl;//passing user clicked image url
+                    console.log(selectedImgUrl);
+                }
+                // previous and next button
+                const prevBtn = document.querySelector(".prev");
+                const nextBtn = document.querySelector(".next");
+                if (newIndex == 0) {
+                    prevBtn.style.display = "none";
+                }
+                if (newIndex >= gallery.length -1) {
+                    nextBtn.style.display = "none";
+                }
+                prevBtn.onclick = () => {
+                    newIndex--;//decrement new index value
+                    if(newIndex == 0) {
+                        preview();
+                        prevBtn.style.display = "none";
+                    }else{
+                        preview();//calling again to update image
+                        nextBtn.style.display = "block";
+                    }
+                }
+                nextBtn.onclick = () => {
+                    newIndex++;//decrement new index value
+                    if(newIndex >= gallery.length -1) {
+                        preview();
+                        nextBtn.style.display = "none";
+                    }else{
+                        preview();//calling again to update image
+                        prevBtn.style.display = "block";
+                    }
+                }
+               
+                preview();//calling preview function
+                previewBox.classList.add("show");
+                shadow.style.display = "block";
+                document.querySelector(".g-sec").style.overflow = "hidden";
+                closeIcon.onclick = () => {
+                    newIndex = clickImgIndex; //assigning user first click img index to newIndex varriable;
+                    previewBox.classList.remove("show");
+                    prevBtn.style.display = "block";
+                    nextBtn.style.display = "block";
+                    shadow.style.display = "none";
+                    document.querySelector(".g-sec").style.overflow = "auto";
+                }
+            }
+        }
+    }
 });
+
+
