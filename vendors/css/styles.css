@@ -146,9 +146,9 @@
  * to adjust the values of base font size and vertical space unit.
  */
 @media screen and (max-width: 600px) {
-    :root {
+    /* :root {
         --multiplier : .9375;
-    }
+    } */
 }
 
 /* ------------------------------------------------------------------- 
@@ -3474,7 +3474,7 @@ img.u-pull-left {
     }
 
     .tab-nav__list a {
-        padding : var(--vspace-0_375) 2.8rem;
+        padding : 1rem  2.8rem;
     }
 }
 
